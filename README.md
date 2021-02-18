@@ -5,3 +5,9 @@
 # Fifth commit in branch hotfix
 # Sixth commit in branch hotfix after merge
 # Seventh commit in branch hotfix after merge
+
+Instructions to build:
+
+cd build
+cmake ..
+make
