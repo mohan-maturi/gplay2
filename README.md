@@ -8,9 +8,7 @@
 
 Instructions to build:
 
-# Creating Build Files
 cmake -H. -Bbuild
-# Creating Binary Files
 cmake --build build
 
 Instructions to run:
