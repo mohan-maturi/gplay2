@@ -8,6 +8,10 @@
 
 Instructions to build:
 
-cd build
-cmake ..
-make
+# Creating Build Files
+cmake -H. -Bbuild
+# Creating Binary Files
+cmake --build build
+
+Instructions to run:
+./bin/lifeguards
