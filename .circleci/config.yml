@@ -18,4 +18,4 @@ jobs:
           command: 'cmake --build build'
       - run:
           name: Testing
-          command: 'cd ./bin && ./lifeguards && sleep 3600s'
+          command: 'cd ./bin && ./lifeguards'
