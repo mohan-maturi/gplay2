@@ -30,7 +30,7 @@ workflows:
    build_every_5:
      triggers:
        - schedule:
-           cron: "* * * 5 *"
+           cron: "*/5 * * * *"
            filters:
              branches:
                only:
