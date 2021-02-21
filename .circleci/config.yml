@@ -34,7 +34,7 @@ workflows:
            filters:
              branches:
                only:
-                 - master
+                 - main
                  - hotfix2
      jobs:
        - build
