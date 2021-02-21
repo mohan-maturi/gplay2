@@ -22,3 +22,6 @@ jobs:
       - run:
           name: Testing 2
           command: 'cd ./bin && ./lifeguards'
+      - run:
+          name: Testing 3
+          command: 'cd ./bin && ./lifeguards'
