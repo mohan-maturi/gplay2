@@ -22,3 +22,19 @@ jobs:
       - run:
           name: Testing 2
           command: 'cd ./bin && ./lifeguards'
+workflows:
+   version: 2
+   build_on-push:
+     jobs:
+       - build
+   build_every_5:
+     triggers:
+       - schedule:
+           cron: "* * * 5 *"
+           filters:
+             branches:
+               only:
+                 - master
+                 - hotfix2
+     jobs:
+       - build
