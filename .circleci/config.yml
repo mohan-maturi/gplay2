@@ -37,3 +37,6 @@ workflows:
                  - master
      jobs:
        - build
+   build_on-push_2:
+     jobs:
+       - build
