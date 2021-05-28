@@ -25,6 +25,7 @@ int main() {
     ofstream fout ("lifeguards.out");
     int n;
     fin >> n;
+    cout << "input read: " << n << endl;
     lifeguard lifeguards[n];
     for (int i = 0; i < n; i++) {
         fin >> lifeguards[i].start >> lifeguards[i].end;
