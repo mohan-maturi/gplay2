@@ -80,6 +80,8 @@ int main() {
         cout << loss <<  endl;
         // reset min_loss if this is the new loss
         min_loss = min(min_loss, loss);
+        // log the minimum loss as of now
+        cout << min_loss << endl;
     }
     fout << (total_hours - min_loss) << endl;
     return 0;
